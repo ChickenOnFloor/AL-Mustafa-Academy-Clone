@@ -24,7 +24,6 @@ gsap.from('.courses *', {
         trigger: '.courses',
         start: 'top 50%',
         end: 'bottom 50%',
-        markers: true,
         toggleActions: 'play reverse play reverse', // Controls what happens on enter, leave, re-enter, and re-leave
     }
 })
@@ -39,7 +38,6 @@ gsap.from('.tutor *', {
         trigger: '.tutor',
         start: 'top 50%',
         end: 'bottom 50%',
-        markers: true,
         toggleActions: 'play reverse play reverse', // Controls what happens on enter, leave, re-enter, and re-leave
     }
 })
@@ -53,7 +51,6 @@ gsap.from('.reviews *', {
         trigger: '.reviews',
         start: 'top 50%',
         end: 'bottom 50%',
-        markers: true,
         toggleActions: 'play reverse play reverse', // Controls what happens on enter, leave, re-enter, and re-leave
     }
 })
@@ -67,7 +64,6 @@ gsap.from('.location *', {
         trigger: '.location',
         start: 'top 50%',
         end: 'bottom 50%',
-        markers: true,
         toggleActions: 'play reverse play reverse', // Controls what happens on enter, leave, re-enter, and re-leave
     }
 })
@@ -81,7 +77,6 @@ gsap.from('.footer *', {
         trigger: '.footer',
         start: 'top 50%',
         end: 'bottom 50%',
-        markers: true,
         toggleActions: 'play reverse play reverse', // Controls what happens on enter, leave, re-enter, and re-leave
     }
 })
